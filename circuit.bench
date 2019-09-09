@@ -1,0 +1,24 @@
+#inputs 6
+#outputs 1
+#gates 7
+
+#inputs
+INPUT(C1)
+INPUT(C2)
+INPUT(X0)
+INPUT(X1)
+INPUT(X2)
+INPUT(X3)
+
+#Outputs
+OUTPUT(M)
+
+#Gates
+c=NOT(C1)
+f=NOT(C0)
+g=AND(f,c,X0)
+h=AND(c,e,X1)
+i=AND(b,f,X2)
+J=AND(e,b,X3)
+M=OR(g,h,i,j)
+
