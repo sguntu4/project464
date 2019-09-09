@@ -4,7 +4,7 @@
 
 #inputs
 INPUT(C1)
-INPUT(C2)
+INPUT(C0)
 INPUT(X0)
 INPUT(X1)
 INPUT(X2)
